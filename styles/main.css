@@ -8,7 +8,71 @@ img {
 .site-header {
   position: relative;
 }
+.marcoInsta{
+  width: 100%;
+  height: 220px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagramGPZN{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+.cuadroajuste{
+margin: 0;
+font-size: 20px;
+font-weight: bold;
+color: #dB9600;
+}
+
+.btnFollow{
+  display:inline-block;
+  margin-bottom:0;
+  font-weight:normal;
+  text-align:center;
+  vertical-align:middle;
+  -ms-touch-action:manipulation;
+  touch-action:manipulation;
+  cursor:pointer;
+  background-image:none;
+  border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;
+  line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;
+box-shadow: 0px 3px 12px -1px rgba(0,0,0,0.4);
+  color: white;
+  transition: all, 0.5s;
+}
+#btnFB{
+background-color: #3b5998;
+}
+
+#btnInsta{
+   background: -webkit-radial-gradient(50px 220px, #ffda75 18%,#ff3a49 43%,#ff3a49 50%,#e518a1 70%,#6634e1 100%);
+
+}
+#btnInsta:hover{
+
+   background: -webkit-radial-gradient(50px 220px, #ffda75 18%,#ff3a49 43%,#ff3a49 50%,#e518a1 70%,#6634e1 100%);
+color: transparent;
+-webkit-background-clip: text;
+  background-clip: text;
+}
+#btnFB:hover{
+  background-color: white;
+color: #3b5998;
+}
+
+#imgInsta{
+width: 75px;
+height: 75px;
+border-radius: 50%;
+}
 
 
 .site-header .mdl-layout__header-row {
@@ -90,7 +154,7 @@ img {
 }
 
 .mdl-layout__content {
-  background-color: #fefefe;  
+  background-color: #fefefe;
 }
 
 .site-content {
@@ -170,7 +234,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+
 
 }
 #playcircle{
@@ -250,7 +314,7 @@ img.article-image {
 }
 #nom2{
   background-image: url("../img/bannerNombre2.png");
-  
+
 }
 .form-contact .mdl-textfield {
   width: 100%;
